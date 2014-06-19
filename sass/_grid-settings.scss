@@ -1,0 +1,20 @@
+@import "bourbon/bourbon";
+@import "neat/neat-helpers"; // or "neat-helpers" when in Rails
+@import "neat/neat";
+
+// Change the grid settings
+$column: 60px;
+$gutter: 20px;
+$grid-columns: 12;
+$max-width: em(1080, 12);
+$responsive: true;
+
+// Define your breakpoints
+$tablet: new-breakpoint(max-width 768px 8);
+$mobile: new-breakpoint(max-width 480px 4);
+
+$b693: new-breakpoint(max-width 693px 6);
+$b1017: new-breakpoint(max-width 1017px 8);
+
+$visual-grid: true;
+$visual-grid-color: #FF0;
